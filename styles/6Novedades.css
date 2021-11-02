@@ -1,0 +1,81 @@
+/**LAS ULTIMAS NOVEDADES**/
+.fondo-novedades{
+    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 0%, 0% 100%);
+    clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0% 100%);
+    background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+    height: 850px;
+    top: 82%;
+    width: 100%;
+    position: absolute;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+.Ult-novedades h1{
+    font-size: 48px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #ffffff;
+    
+    
+}
+
+.boton-novedades{
+    font-family: 'IBMPlexMono', monospace;
+    font-size: 18px;
+    color: #060a24;
+    position: absolute;
+    border: none;
+    width: 24%;
+    height: 7%;
+    cursor: pointer;
+    margin-top: 150px;
+    background-image: linear-gradient(225deg,#00f3bb 100%, #00f3bb 0%);
+    text-align: center;
+    line-height: 24px;
+}
+.boton-novedades:hover{
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: white;
+    transition:.5s;
+}
+
+@media screen and (max-width: 1300px){
+    .fondo-novedades{
+        top:81.5%;
+        max-height: 815px
+    }    
+    .boton-novedades{
+        height: 48px;
+        width: 50%;
+        
+        
+    }
+}
+@media screen and (max-width: 800px){
+    .fondo-novedades{
+        top:89%;
+        max-height: 780px
+    }
+}
+@media screen and (max-width: 710px){
+    .fondo-novedades{
+        top:90%;
+        max-height: 500px
+    }
+    .Ult-novedades h1{
+        font-size: 30px;
+        width: 70%;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: #ffffff;
+    }
+    .boton-novedades{
+        height: 48px;
+        width: 90%;
+        left: 5%;
+        
+    }
+}

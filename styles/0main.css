@@ -1,0 +1,47 @@
+:root {
+    --theme-color: white;
+    --primary-color:#060A24;
+    --secundary-color: #0000EC;
+    --text-color: #060A24;
+    --navbar-shallow-color: #e5e5e5;
+}
+  
+  body {
+    font-family: 'IBMPlexMono', monospace;
+    background-color: var(--theme-color);
+    color: var(--text-color);
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 28px;
+    flex:1;
+    position: relative;
+    min-height: 100vh;
+    min-width: 100%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+
+}
+
+section[id]{
+    margin-top: 70px;
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+html, body{
+
+    overflow-x: hidden;
+}
+

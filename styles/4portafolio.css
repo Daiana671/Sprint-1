@@ -1,0 +1,70 @@
+.invi{
+    max-height: 80%;
+}
+.Galeria-port{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.img-port{
+    width:33.3%;
+    position: relative;
+    top: -1500px;
+}
+
+.img-port > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.invitados h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 48px;
+    color: #060A24;
+    letter-spacing: 0;
+    top: -1600px;
+    left: 15%;
+    position: relative;
+    
+}
+.inv{
+    top: -1750px;
+    position: relative;
+}
+
+@media screen and (max-width : 1300px) {
+    .invitados h1 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 48px;
+        color: #060A24;
+        letter-spacing: 0;
+        top: -1610px;
+        left: 10%;
+        position: relative;
+        
+    }
+    
+}
+@media screen and (max-width: 800px){
+    .invitados h1 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 38px;
+        color: #060A24;
+        letter-spacing: 0;
+        top: -1550px;
+        left: 5%;
+        position: relative;
+        
+    }
+    .img-port{
+        width: 100%;
+    }
+    .invi{max-height: 80%;}
+}
+@media screen and (max-width: 370px){
+    .invitados h1 {
+        font-size: 30px
+    }
+}

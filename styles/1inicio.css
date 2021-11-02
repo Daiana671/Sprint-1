@@ -1,0 +1,137 @@
+.container{
+    flex-wrap: wrap;
+    display:flex;
+    min-width: 300px;
+}
+.container > h1{
+    font-size: 400%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: var(--text-color);
+    letter-spacing: 0;
+    position: absolute;
+    top: 220px;
+    left: 15%;
+}
+
+#tach{
+    text-decoration: line-through;
+    line-height:3px
+} 
+
+#punto{
+    font-size: 64px;
+    color: var(--secundary-color);
+    letter-spacing: 0;
+}
+
+#logo{
+    position: relative;
+    top: 22px;
+    left: 100px;
+    height: 36px;
+    width: 36px;
+}
+.container2{
+    position: absolute;
+    top: 280px;
+    left: 15%;
+    font-size: 16px;
+    color:var(--text-color);
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-right: 20%;
+}
+
+.boton{
+    font-family: 'IBMPlexMono', monospace;
+    font-size: 18px;
+    color: #060a24;
+    letter-spacing: 0;
+    position: absolute;
+    border: none;
+    width: 226px;
+    height: 56px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    margin-top: 430px;
+    top: -20px;
+    left: 15%;
+    background-image: linear-gradient(225deg,#00f3bb 100%, #00f3bb 0%);
+    text-align: center;
+    
+}
+.boton:hover{
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: white;
+    transition:.5s;
+}
+
+@media screen and (max-width: 1300px){
+    .container > h1{
+        left: 10%;
+        font-size: 45px
+     }
+     .container2{
+        left: 10%;
+         
+     }
+     .boton{
+         left: 10%
+     }
+}
+
+@media screen and (max-width: 800px){
+    .container > h1{
+        left: 5%;
+        font-size: 42px;
+        top: 120px ;
+        margin-right:18%;
+        line-height: 35px;
+    }
+    #punto{
+        font-size: 36px;
+        color: black;
+        letter-spacing: 0;
+        
+    }
+    .container2 {
+        top: 220px;
+        position: absolute;
+        left: 5%;
+        margin-right: 10%;
+        visibility: hidden;
+        justify-content:space-evenly;
+    }
+    
+    .container2:before {
+        content: 'Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.';
+        visibility: visible;
+    
+    }
+    .boton{
+
+        position: absolute;
+        width: 90%;
+        height: 56px;
+        margin-bottom: 5px;
+        cursor: pointer;
+        margin-top: 330px;
+        left: 5%;
+        
+    }   
+}
+
+@media screen and (max-width: 370px){
+    .container > h1{
+        font-size: 30px;
+        line-height: 30px
+    }
+    .container2 {
+        top: 200px;
+        font-size: 14px;
+        margin-right: 0;
+    }
+    #punto{
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,108 @@
+.Imagen-nosotros {
+    position: absolute;
+    width: 30%;
+    height: 16%;
+    top: 1580px;
+    left: 13%;
+}
+
+.tittle-nosotros > h1 {
+    font-size: 48px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #060A24;
+    letter-spacing: 0;
+    position: absolute;
+    left: 48%;
+    top: 1850px;
+}
+
+.text-nosotros {
+    position: absolute;
+    left: 48%;
+    top: 1920px;
+    margin-right: 25%;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .Imagen-nosotros {
+        position: absolute;
+        width: 50%;
+        height: 16%;
+        top: 1550px;
+        left: 5%;
+    }
+    .tittle-nosotros>h1 {
+        font-size: 38px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: #060A24;
+        letter-spacing: 0;
+        position: absolute;
+        left: 52%;
+        top: 1730px;
+    }
+    .text-nosotros {
+        position: absolute;
+        left: 52%;
+        top: 1780px;
+        margin-right: 10%;
+    }
+}
+@media screen and (max-width: 800px){
+    .Imagen-nosotros{
+        left: 3%;
+        height: 9%;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 700px) {
+   
+    .Imagen-nosotros{
+        width: 80%;
+        max-width: 440px;
+        height: 8%;
+        position: absolute;
+        top: 1550px;
+        left: 10%;
+        min-width: 200px;
+    }
+    .tittle-nosotros>h1 {
+        font-size: 38px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: #060A24;
+        letter-spacing: 0;
+        position: absolute;
+        left: 5%;
+        line-height: 35px;
+        margin-right: 10%;
+        top: 2200px;
+    }
+    .text-nosotros {
+        position: absolute;
+        left: 5%;
+        top: 2250px;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .Imagen-nosotros{
+        width: 90%;
+        left: 5%;
+        height: 8%
+    }
+    .tittle-nosotros>h1 {
+        font-size: 30px;
+        left: 5%;
+        line-height: 30px;
+        margin-right: 10%;
+        top: 2050px;
+    }
+    .text-nosotros {
+        position: absolute;
+        font-size: 14px;
+        left: 5%;
+        top: 2120px;
+        margin-right: 10%;
+    }
+}

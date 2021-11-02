@@ -1,0 +1,147 @@
+.Container-episodios {
+    display: flex;
+    width: 100%;
+    
+    align-items: center;
+    position: relative;
+}
+    .spotify1 {
+    margin-left: .5%;
+    margin-right: 800px;
+    top: 820px;
+    left: 7.5%;
+    width: 40.6%;
+    height: 232px;
+    border: none;
+  }
+  
+  .spotify2 {
+    margin-left: 40%;
+    margin-right: 100px;
+    top: 820px;
+    left: 12%;
+    width: 40.6%;
+    height: 232px;
+    border: none;
+  }
+  
+  .spotify3 {
+    margin-left: .5%;
+    margin-right: 800px;
+    top: 1150px;
+    left: 7.5%;
+    height: 232px;
+    border: none;
+    width: 40.6%
+  }
+  
+  .spotify4 {
+    margin-left: 40%;
+    margin-right: 100px;
+    top: 1150px;
+    border: none;
+    height: 232px;
+    left: 12%;
+    width: 40.6%
+  }
+  
+  iframe {
+    position: absolute;
+  
+  }
+  .fondo-episodios {
+    -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 80%, 0% 100%);
+            clip-path: polygon(0 15%, 100% 0%, 100% 80%, 0% 100%);
+    background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+    height: 1280px;
+    margin-top: 430px;
+    margin-bottom: 2420.4px;
+    width: 100%;
+    
+  }
+  
+  .titulo-episodios{
+    position: absolute;
+    font-size: 48px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #ffff;
+    letter-spacing: 0;
+    top: 740px;
+    left: 15%;
+    }
+
+@media screen and(max-width: 1300px){
+    .titulo-episodios{
+      left: 10%
+    } 
+}
+
+@media screen and (max-width: 800px) {
+ 
+    .fondo-episodios {
+    -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 0%, 0% 100%);
+            clip-path: polygon(0 2%, 100% 0%, 100% 98%, 0% 100%);
+    background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+    margin-top: 400px;
+    
+    width: 100%;
+    
+  }
+    .titulo-episodios{
+    position: absolute;
+    font-size: 40px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    letter-spacing: 0;
+    margin-top: -280px;
+    left: 5%;
+    }
+
+
+    .Container-episodios {
+    display: flex;
+    width: 100%;
+    align-items: column;
+    justify-content: center;
+    position: relative;
+
+  }
+
+    .spotify1 {
+    width: 92%;
+    max-width: 92%;
+    height: 500px;
+    margin-top: -300px;
+    margin-left: -3%;
+  }
+
+    .spotify2 {
+    width: 92%;
+    max-width: 92%;
+    height: 500px;
+    margin-top: -60px;
+    margin-left: -8%;
+    
+  }
+
+    .spotify3 {
+    width: 92%;
+    max-width: 92%;
+    height: 500px;
+    margin-top: -150px;
+    margin-left: -3%;
+  }
+
+    .spotify4 {
+    width: 92%;
+    max-width: 92%;
+    height: 500px;
+    margin-top: 90px;
+    margin-left: -8%;
+  }
+
+    iframe {
+    position: absolute;
+    
+  }   
+
+} 
